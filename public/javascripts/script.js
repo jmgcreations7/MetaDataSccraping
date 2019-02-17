@@ -1,5 +1,5 @@
-var existingScrape = document.getElementById('existingScrape');
-existingScrape.onclick = function(){
+var newScrape = document.getElementById('newScrape');
+newScrape.onclick = function(){
     var url = document.getElementById('url').value;
     if(url) {
         $.ajax({

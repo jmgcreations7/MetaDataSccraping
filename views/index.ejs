@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container">
+      <h1><%= title %></h1>
+      <div>
+        <div>
+          <label>Input URL</label>
+          <input type="url" id="url">
+        </div>
+        <div>
+          <button type="button" id="existingScrape" class="btn-primary">Show existing scrape information</button>
+          <button type="button" id="newScrape" class="btn-primary">Fetch new scrape information</button>
+        </div>
+      </div>
+    </div>
+    <div class="container margin-top-20">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Content</th>
+          </tr>
+        </thead>
+        <tbody id="resultBody">
+
+        </tbody>
+      </table>
+    </div>
+    <script src="javascripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
+</html>

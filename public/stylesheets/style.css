@@ -1,0 +1,44 @@
+body {
+  padding: 25px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #ccc;
+}
+
+.btn-primary {
+  height: 32px;
+  padding: 5px 10px;
+  background: #2963e6e0;
+  color: #fff;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.table tbody tr td:first-child{
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 150px;
+
+}
+
+.table td, .table th {
+  border-bottom: 1px solid #e6ecee;
+}
+
+.table {
+  width: 100%;
+}
